@@ -10,7 +10,7 @@
 
 
 body{
-	background-image: url("./assets/spider.jpg");
+	background-image: url("./assets/background.jpg");
 	height: 450px;
 	background-position: center;
   	background-repeat: no-repeat;
@@ -106,6 +106,12 @@ body{
 	display: inline-block;
 	align-content: center;
 	margin-left: 45%;
+}
+
+
+.repo{
+	display: inline-block;
+	align-content: center;
 }
 
 
