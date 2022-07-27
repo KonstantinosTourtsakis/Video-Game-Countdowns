@@ -118,6 +118,7 @@ body{
 .gamelink{
 	margin-right: 4%;
 	opacity:  60%;
+	transition: opacity 500ms;
 	text-decoration: none;
 }
 
