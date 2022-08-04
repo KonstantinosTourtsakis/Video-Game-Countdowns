@@ -23,7 +23,7 @@ body{
 .othertext{
 	color: black;
 	margin-top:  15%;
-	font-size: 200%;
+	font-size: 250%;
 	margin-bottom: 1px;
 	text-align: center;
 	font-weight: bold;
@@ -39,7 +39,7 @@ body{
 	margin-top:  0%;
 	/*font-size: 570%; */
 	/*margin-top:  15%;*/
-	font-size:  870%;
+	font-size:  1000%;
 	text-align: center;
 	font-weight: bold;
 	font-family: mainFont;
@@ -105,13 +105,7 @@ body{
 .purchase{
 	display: inline-block;
 	align-content: center;
-	margin-left: 45%;
-}
-
-
-.repo{
-	display: inline-block;
-	align-content: center;
+	margin-left: 44.5%;
 }
 
 
@@ -120,10 +114,24 @@ body{
 	opacity:  60%;
 	transition: opacity 500ms;
 	text-decoration: none;
+
 }
+
 
 
 .gamelink:hover{
 	opacity:  100%;
 	transition: opacity 500ms;
 }
+
+
+
+.repo{
+	display: inline-block;
+	align-content: center;
+}
+
+
+
+
+

@@ -12,26 +12,33 @@
 </head>
 <body>
 
-  <div>
-    <p class="othertext"> Marvel's Spider-Man PC Countdown</p>
+
+  
+
+
+  <p class="othertext"> Marvel's Spider-Man PC Countdown</p>
     <p class="countdown" id="demo"></p>
 
 
 
     <!-- Repository link -->
-  <div class="repo">
-    <a class="gamelink" target="_blank" href="https://github.com/KonstantinosTourtsakis/Countdown-Spider-Man"> <img src="./assets/github_logo.png" width="2%" height="2%"> </a>
-  </div>
+    <!-- <div class="repo">
+      <a class="gamelink" target="_blank" href="https://github.com/KonstantinosTourtsakis/Countdown-Spider-Man"> <img src="./assets/github_logo.png" width="2%" height="2%"> </a>
+    </div> -->
 
 
-  <div class="purchase">
+    <div class="purchase">
 
-    <a class="gamelink" target="_blank" href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/"> <img src="./assets/steam_logo.png" width="8%" height="8%"> </a>
-    <a class="gamelink" target="_blank" href="https://store.epicgames.com/en-US/p/marvels-spider-man-remastered"> <img src="./assets/eg_logo.png" width="8%" height="8%"> </a>
+      <a class="gamelink" target="_blank" href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/"> <img src="./assets/steam_logo.png" width="8%" height="8%"> </a>
+      <a class="gamelink" target="_blank" href="https://store.epicgames.com/en-US/p/marvels-spider-man-remastered"> <img src="./assets/eg_logo.png" width="8%" height="8%"> </a>
 
-  </div>
-  </div>
+    </div>
 
+
+    <!-- BACKGROUND MUSIC 
+  <audio src="./assets/music.mp3" id="myaudio" loop="loop" controls> </audio> -->
+
+  
 
   <!-- Countdown script -->
   <script>
@@ -53,6 +60,8 @@
       {
         clearInterval(x);
         document.getElementById("demo").innerHTML = "#Be Greater!";
+        
+        //document.getElementById("myaudio").play();
       }
     }, 1000);
   </script> 
