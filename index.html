@@ -21,12 +21,6 @@
 
 
 
-    <!-- Repository link -->
-    <!-- <div class="repo">
-      <a class="gamelink" target="_blank" href="https://github.com/KonstantinosTourtsakis/Countdown-Spider-Man"> <img src="./assets/github_logo.png" width="2%" height="2%"> </a>
-    </div> -->
-
-
     <div class="purchase">
 
       <a class="gamelink" target="_blank" href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/"> <img src="./assets/steam_logo.png" width="8%" height="8%"> </a>
@@ -34,20 +28,19 @@
 
     </div>
 
-
-    <!-- BACKGROUND MUSIC 
-  <audio src="./assets/music.mp3" id="myaudio" loop="loop" controls> </audio> -->
-
   
 
   <!-- Countdown script -->
   <script>
     var countDownDate = new Date("Aug 12, 2022 09:00:00").getTime();
-    
+
     var x = setInterval(function()
     {
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
+      var now = new Date();
+      var nowUTC = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds());
+
+
+      var distance = countDownDate - nowUTC.getTime();
     
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -55,13 +48,11 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
       document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-    
+      
       if (distance < 0) 
       {
         clearInterval(x);
         document.getElementById("demo").innerHTML = "#Be Greater!";
-        
-        //document.getElementById("myaudio").play();
       }
     }, 1000);
   </script> 
