@@ -1,0 +1,137 @@
+
+
+
+@font-face{
+	font-family: mainFont;
+	src: url("./assets/SpiderManFont.ttf");
+}
+
+
+
+
+body{
+	background-image: url("./assets/background.jpg");
+	height: 450px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	overflow-y: hidden;
+}
+
+
+
+.othertext{
+	color: black;
+	margin-top:  15%;
+	font-size: 250%;
+	margin-bottom: 1px;
+	text-align: center;
+	font-weight: bold;
+	font-family: mainFont;
+}
+
+
+
+
+.countdown{
+	color: white;
+	text-shadow: 4px 4px #000000;
+	margin-top:  0%;
+	/*font-size: 570%; */
+	/*margin-top:  15%;*/
+	font-size:  1000%;
+	text-align: center;
+	font-weight: bold;
+	font-family: mainFont;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.countdown {
+    	font-size:  270%;
+  	}
+
+  	.othertext {
+		margin-top:  4%;
+		font-size: 20%;
+		margin-bottom: 1px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+	.countdown {
+    	font-size:  370%;
+  	}
+
+  	.othertext {
+		margin-top:  6%;
+		font-size: 60%;
+		margin-bottom: 1px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+	.countdown {
+    	font-size:  470%;
+  	}
+
+  	.othertext {
+		margin-top:  9%;
+		font-size: 100%;
+		margin-bottom: 1px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+	.countdown {
+    	font-size:  670%;
+  	}
+
+  	.othertext {
+		margin-top:  12%;
+		font-size: 150%;
+		margin-bottom: 1px;
+	}
+
+}
+
+
+
+
+.purchase{
+	display: inline-block;
+	align-content: center;
+	margin-left: 44.5%;
+}
+
+
+.gamelink{
+	margin-right: 4%;
+	opacity:  60%;
+	transition: opacity 500ms;
+	text-decoration: none;
+
+}
+
+
+
+.gamelink:hover{
+	opacity:  100%;
+	transition: opacity 500ms;
+}
+
+
+
+.repo{
+	display: inline-block;
+	align-content: center;
+}
+
+
+
+
+
