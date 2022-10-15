@@ -19,11 +19,51 @@ body{
 }
 
 
+/* here 0------------------------------------------------ */
+
+
+
+
+
+
+
+.bgimage
+{
+	background-image: url("./assets/background.jpg");
+  	filter: blur(8px);
+  	-webkit-filter: blur(8px);
+  	height: 1080px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+
+.bg-text {
+  
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+/* here 0------------------------------------------------ */
+
 
 .othertext{
-	color: black;
+	color: #ec1c22;
 	margin-top:  15%;
-	font-size: 250%;
+	font-size: 275%; /* 250 - 300 */
 	margin-bottom: 1px;
 	text-align: center;
 	font-weight: bold;
