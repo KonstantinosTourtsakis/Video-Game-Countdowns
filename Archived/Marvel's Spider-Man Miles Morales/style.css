@@ -3,7 +3,7 @@
 
 @font-face{
 	font-family: mainFont;
-	src: url("./assets/redemption.ttf");
+	src: url("./assets/SpiderManFont.ttf");
 }
 
 
@@ -11,11 +11,11 @@
 
 body{
 	background-image: url("./assets/background.jpg");
-	height: 700px;
+	height: 450px;
 	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow-y: hidden;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	overflow-y: hidden;
 }
 
 
@@ -30,19 +30,18 @@ body{
 .bgimage
 {
 	background-image: url("./assets/background.jpg");
-	backdrop-filter: blur(10px);
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 1080px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  	filter: blur(8px);
+  	-webkit-filter: blur(8px);
+  	height: 1080px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 
 
-.bg-text 
-{  
+.bg-text {
+  
   color: white;
   font-weight: bold;
   position: absolute;
@@ -62,8 +61,7 @@ body{
 
 
 .othertext{
-	color: black;
-	text-shadow: 4px 4px #ffffff;
+	color: #ec1c22;
 	margin-top:  15%;
 	font-size: 275%; /* 250 - 300 */
 	margin-bottom: 1px;
