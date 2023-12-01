@@ -62,8 +62,8 @@ body{
 
 
 .othertext{
-	color: black;
-	text-shadow: 4px 4px #ffffff;
+	color: white;
+	text-shadow: 4px 4px black;
 	margin-top:  15%;
 	font-size: 275%; /* 250 - 300 */
 	margin-bottom: 1px;
