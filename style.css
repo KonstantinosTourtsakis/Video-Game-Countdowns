@@ -13,9 +13,9 @@ body{
 	background-image: url("./assets/background.jpg");
 	height: 700px;
 	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow-y: hidden;
+  	background-size: cover;
+  	background-repeat: repeat;
+	/*overflow-y: hidden; */
 }
 
 
